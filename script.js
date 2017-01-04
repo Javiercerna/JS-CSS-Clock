@@ -21,6 +21,15 @@ function setHandAngle(hand,time_measure,max_time_measure)
 {
   var hand_angle = time_measure*MAX_ANGLE/max_time_measure + HAND_INITIAL_ANGLE;
   hand.style.transform = 'rotate(' + hand_angle + 'deg)';
+  // Remove transition temporarily to avoid going from 359 to 0.
+  if (time_measure === 0)
+  {
+    hand.style.transition = 'none';
+  }
+  else if (time_measure === 1)
+  {
+    hand.style.transition = 'all 0.05s';
+  }
 }
 
 setInterval(startClock,1000);
