@@ -83,6 +83,15 @@ body {
   color: white;
 }
 
+.clock-mark {
+  width: 2%;
+  top: 50%;
+  height: 2px;
+  left: 50%;
+  background-color: white;
+  position: absolute;
+}
+
 .deg0 {
    transform: rotate(270deg) translate(18rem) rotate(-270deg);
 }
@@ -129,4 +138,68 @@ body {
 
 .deg330 {
    transform: rotate(240deg) translate(18rem) rotate(-240deg);
+}
+
+.mark-deg6 {
+  transform: rotate(275deg) translate(18rem);
+}
+
+.mark-deg12 {
+  transform: rotate(281deg) translate(18rem);
+}
+
+.mark-deg18 {
+  transform: rotate(287deg) translate(18rem);
+}
+
+.mark-deg24 {
+  transform: rotate(293deg) translate(18rem);
+}
+
+.mark-deg36 {
+  transform: rotate(305deg) translate(18rem);
+}
+
+.mark-deg42 {
+  transform: rotate(311deg) translate(18rem);
+}
+
+.mark-deg48 {
+  transform: rotate(317deg) translate(18rem);
+}
+
+.mark-deg54 {
+  transform: rotate(323deg) translate(18rem);
+}
+
+.mark-deg66 {
+  transform: rotate(335deg) translate(18rem);
+}
+
+.mark-deg72 {
+  transform: rotate(341deg) translate(18rem);
+}
+
+.mark-deg78 {
+  transform: rotate(347deg) translate(18rem);
+}
+
+.mark-deg84 {
+  transform: rotate(353deg) translate(18rem);
+}
+
+.mark-deg96 {
+  transform: rotate(365deg) translate(18rem);
+}
+
+.mark-deg102 {
+  transform: rotate(371deg) translate(18rem);
+}
+
+.mark-deg108 {
+  transform: rotate(377deg) translate(18rem);
+}
+
+.mark-deg114 {
+  transform: rotate(383deg) translate(18rem);
 }
